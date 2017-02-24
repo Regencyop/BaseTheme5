@@ -10437,8 +10437,7 @@ table[datepicker] {
 	.container-view {
 		padding: 0px 0px 0px 0px;
 		margin: 0 0 0 0;
-		background: url('http://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/backgroundImage/background-option3-light.jpg') no-repeat;
-		background-color: rgba(127, 127, 127, 1);
+		background-color: #fff;
 	}
 	
     #pdt .container-view {
