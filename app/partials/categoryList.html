@@ -5,10 +5,14 @@
         <ul>
             <li class="col-lg-50 col-md-3 col-sm-4 col-xs-4" ng-repeat="c in currentCategory.SubCategories">
                 <div class="well image-bg" style="background-image:url({{c.Image.URL}});">
+                <!-- Comment: Remove line above and make this active to generate dynamic load of category images. <div class="well image-bg" style="background-image:url(https://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/companyId/{{companyId}}/categories/{{c.InteropID}}.jpg);">
+                -->
                     <a ng-href="catalog/{{c.InteropID}}">
                     </a>
                 </div>
-                <h4 ng-bind-html="c.Name" />
+                <a ng-href="catalog/{{c.InteropID}}">
+                    <h4 ng-bind-html="c.Name" />
+                </a>
             </li>
         </ul>
     </nav>
