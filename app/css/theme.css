@@ -10571,16 +10571,7 @@ table[datepicker] {
         color: #666;
         font-weight: bolder;
     }
-	
-	body {
-		/* background image full screen */
-		background: url('http://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/backgroundImage/LeithBMW_background-light.jpg') no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-	
+
 /*	.product-image-large { need to enlarge container}*/
 	
 	nav.nav ul li.hidden-sm {
