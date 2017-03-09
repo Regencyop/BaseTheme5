@@ -4,3 +4,14 @@ Theme name: My SPA Theme
 Version: 1.0
 Template: Howdy
 */
+
+/*	
+	body {
+		/* background image full screen */
+		background: url('http://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/backgroundImage/LeithBMW_background-light.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+*/	
