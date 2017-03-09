@@ -520,8 +520,15 @@ a.text-success:hover {
 }
 .text-info {
   color: #666;
+  font-size: .8em;
 }
 a.text-info:hover {
+  color: #333;
+}
+.text-symbol {
+  color: #666;
+}
+a.text-symbol:hover {
   color: #333;
 }
 .text-warning {
