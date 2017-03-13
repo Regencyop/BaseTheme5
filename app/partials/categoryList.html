@@ -1,5 +1,19 @@
 <div class="panel-category-list no-panels" ng-show="currentCategory.SubCategories.length">
-    <customcarousel></customcarousel>
+<customcarousel></customcarousel>
+<!-- Comment: Remove line above and make script/ul below active to generate FTP Based Carousel -->
+<!-- <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+
+    <ul class="rslides">
+      <li><img src="https://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/companyId/{{companyId}}/{{companyId}}-main1.jpg" alt=""></li>
+      <li><img src="https://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/companyId/{{companyId}}/{{companyId}}-main2.jpg" alt=""></li>
+      <li><img src="https://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/companyId/{{companyId}}/{{companyId}}-main3.jpg" alt=""></li>
+      <li><img src="https://www.four51.com/Themes/Custom/df7e2b71-6326-4da6-a24f-554d7d910faf/companyId/{{companyId}}/{{companyId}}-main4.jpg" alt=""></li>
+    </ul> -->
+<!-- End Carousel -->
     <loadingindicator ng-show="categoryLoadingIndicator" title="{{'Please wait while we fetch all categories' | r | xlat}}" />
     <nav class="nav 451_lbl_subcatlist">
         <ul>
