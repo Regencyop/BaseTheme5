@@ -6505,7 +6505,8 @@ button::-moz-focus-inner {
   border: none;
   border-radius: 0;
   padding: 20px 0;
-  text-transform: lowercase;
+  text-transform: initial;
+  border-left: 1px solid #F5F5F5;
 }
 .navbar-fixed-bottom ul li .btn-warning[disabled] {
   opacity: 1;
@@ -10809,7 +10810,7 @@ box-shadow: none;
     background-color: #333;
     height: 60px;
     padding: 20px 0;
-    text-transform: lowercase;
+    text-transform: initial;
     width: 100%;
 }
 
