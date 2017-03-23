@@ -10448,11 +10448,11 @@ table[datepicker] {
 	.header {
 		max-width: 100%;
 		margin: 0 auto;
-		/*background-color: rgba(255, 255, 255, 0.5);*/
+		background-color: #FFF;
 	}
 	.navbar-fixed-top {
 		position: fixed;
-		top: 155px; /*  custom message no */
+		top: 100px !important; /*  custom message no */
 		/* margin-top: 345px;  custom message yes | ensure margin matches height on .jumbotron .container below */
 	    z-index: 999999;
 	    margin-bottom: 300px;
