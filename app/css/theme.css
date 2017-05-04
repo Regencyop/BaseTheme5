@@ -10446,7 +10446,24 @@ table[datepicker] {
 	
     #pdt .container-view {
         margin-top: 141px;
-    }	
+    }
+
+    .container-view ul.rslides {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 350px;
+        overflow: hidden;
+        margin-top: -20px;
+    }
+
+    .rslides {
+        position: relative;
+        list-style: none;
+        min-height: 100%;
+        padding: 0;
+        margin: 0;
+    }
 	
 	.header {
 		max-width: 100%;
@@ -10593,7 +10610,7 @@ table[datepicker] {
 	}
 	.panel-category-list ul li a img {
 		margin: 0 auto;
-		height: 185px;
+		height: 225px;
 		/* width: 305px recommended for category images */
 	}
 	.panel-category-list ul li .well h5 {
