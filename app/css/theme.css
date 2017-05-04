@@ -7226,7 +7226,7 @@ select.ng-invalid:invalid:invalid:focus {
 /*adjust the height of the top margin*/
 /*Category Container*/
 .panel-category-list.no-panels {
-  margin: 135px auto 0px;
+  margin: 0 auto;
   width: 100%;
   /*was 85%*/
 }
@@ -7241,6 +7241,8 @@ select.ng-invalid:invalid:invalid:focus {
    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   margin: 0 0px 0px 0px;
   background: transparent;
+  border-top: 1px solid #777;
+  border-left: 1px solid #777;
 }
 .panel-category-list h3 {
   margin-top: 0;
@@ -7267,13 +7269,13 @@ select.ng-invalid:invalid:invalid:focus {
 .panel-category-list ul li .well {
   margin: 0px;
   padding: 0;
-  max-height: 125px;
+  max-height: 360px;
   width: 100%;
 }
 
 .panel-category-list ul li .well.image-bg {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
     }
 .panel-category-list ul li .well.image-bg.rows {
@@ -7282,11 +7284,12 @@ select.ng-invalid:invalid:invalid:focus {
 }
 .panel-category-list ul li .well.image-bg a {
     background-color: transparent;
+    height: 360px;
 }
 
 .panel-category-list ul li .well.image-bg a:hover {
     background-color: rgba(0,0,0,0.3);
-    max-height:175px;
+    max-height:360px;
     }
 
 .panel-category-list ul li .well.image-bg.dark a {
@@ -10447,7 +10450,7 @@ table[datepicker] {
 	
 	.header {
 		max-width: 100%;
-		margin: 0 auto;
+		margin: 100px auto 0;
 		background-color: #FFF;
 	}
 	.navbar-fixed-top {
@@ -10881,10 +10884,6 @@ font-weight: bold;
     display: inline-block;
 }
 
-.container-view ul {
-    margin-top: -4px;
-}
-
 .dropdown-menu { 
     max-height: 450px;
     overflow: scroll;
@@ -11079,7 +11078,7 @@ border-radius: 4px;
 
 .panel-category-list ul li .well.image-bg a:hover {
     background-color: rgba(0,0,0,0.3);
-    max-height:195px;
+    max-height:360px;
     }
     
 .nav h4, .nav .h4{
