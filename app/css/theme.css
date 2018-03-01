@@ -11206,7 +11206,7 @@ border-radius: 4px;
         line-height: 12px;
     }
 
-    .Weight, .ProductImage, .VibeItemID {
+    .Weight, .ProductImage, .VibeItemID, .fa-edit, .hidden {
         display: none !important;
     }
 
