@@ -8298,6 +8298,7 @@ select.ng-invalid:invalid:invalid:focus {
   max-height: 600px;
   max-width: 100%;
 }
+/* Original Image Zoom Deployment -MW
 img.product-image-large:hover {
   position: relative;
   -webkit-transform: scale(2);
@@ -8310,6 +8311,7 @@ img.product-image-large:hover {
   margin: 90px 0 0 90px;
   box-shadow: 0 0 16px 0 rgba(0,0,0,.25);
 }
+*/
 .product-variants {
   padding-left: 1.5em;
 }
