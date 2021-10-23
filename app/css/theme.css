@@ -5910,10 +5910,6 @@ ul:after,
   background-color: transparent;
   border: 0;
 }
-.hidden {
-  display: none !important;
-  visibility: hidden !important;
-}
 .affix {
   position: fixed;
 }
@@ -11236,7 +11232,7 @@ border-radius: 4px;
         line-height: 12px;
     }
 
-    .Weight, .ProductImage, .VibeItemID, .fa-edit, .hidden {
+    .Weight, .ProductImage, .VibeItemID, .fa-edit, .hidden, .keyword {
         display: none !important;
     }
 
@@ -11294,6 +11290,3 @@ border-radius: 4px;
 
 
     
-    
-    
-
