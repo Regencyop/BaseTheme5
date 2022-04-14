@@ -48,6 +48,7 @@
                                     <a ng-href="cart/{{item.Product.InteropID}}/{{$index}}">
  -->
 					<h4 class="text-primary"><i class="fa fa-edit"></i>{{item.Product.Name}}</h4>
+				    	<h5 class="text-primary">{{item.Variant.ExternalID}}</h5>
 <!-- Hide Product ID
 				        <p class="text-info">{{item.ProductIDText}}</p>
  -->
@@ -60,6 +61,7 @@
                             </div>
                             <div class="col-md-6" ng-if="currentOrder.Status == 'AwaitingApproval'">
                                 <h4 class="text-primary">{{item.Product.Name}}</h4>
+				<h5 class="text-primary">{{item.Variant.ExternalID}}</h5>
 <!-- Hide Product ID
 				        <p class="text-info">{{item.ProductIDText}}</p>
  -->
