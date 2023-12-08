@@ -11228,7 +11228,7 @@ border-radius: 4px;
     
     .spec-group-item {
         position: relative;
-        margin-bottom: -4px;
+        padding: 1px 0;
         border: none;
     }
 
