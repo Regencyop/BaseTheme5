@@ -60,7 +60,7 @@
                                      </h6>
                             </div>
                             <div class="col-md-6" ng-if="currentOrder.Status == 'AwaitingApproval'">
-                                <h4 class="text-primary">{{item.Product.Name}}</h4>
+                                <h4 class="text-primary"><a  ng-href="product/{{item.Product.InteropID}}">{{item.Product.Name}}</a></h4>
 				<h5 class="text-primary">{{item.Variant.ExternalID}}</h5>
 <!-- Hide Product ID
 				        <p class="text-info">{{item.ProductIDText}}</p>
